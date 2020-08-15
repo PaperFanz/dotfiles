@@ -1,0 +1,41 @@
+#! /bin/sh
+
+# start keybind manager
+pgrep -x sxhkd > /dev/null || sxhkd &
+
+# start desktop compositor
+pgrep -x picom > /dev/null || picom &
+
+# hide mouse after inactivity
+pgrep -x unclutter > /dev/null || unclutter &
+
+# set background
+sh ~/.fehbg
+
+# fix cursor on empty desktop
+xsetroot -cursor_name left_ptr
+
+# set desktop names
+bspc monitor -d trm dev www mus tmp
+
+# start bar after setting desktop names
+sh /home/sci/.config/bar/panel.sh 
+
+bspc config border_width        2
+bspc config window_gap          8
+bspc config border_radius       21
+
+bspc config split_ratio          0.50
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+bspc config focus_follows_pointer 	false
+bspc config pointer_follows_focus 	false
+
+bspc config focused_border_color 	\#f2d0a4
+bspc config normal_border_color 	\#111824
+
+bspc rule -a Code desktop='^2'
+bspc rule -a Firefox desktop='^3'
+# spotify sets WM_CLASS too late, does not work
+bspc rule -a Spotify desktop='^4'
+bspc rule -a Screenkey manage=off

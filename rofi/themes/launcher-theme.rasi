@@ -1,0 +1,74 @@
+@import "colors.rasi"
+
+* {
+    accent: @blue;
+    color: @foreground;
+    background-color: @background;
+}
+
+window {
+    font: "CaskaydiaCove Nerd Font 14";
+    padding: 21px;
+    border-radius: 21px;
+    border: 2px;
+    border-color: @accent;
+    width: 35%;
+    children: [vbox];
+}
+
+vbox {
+    orientation: vertical;
+    children: [hbox, listview];
+}
+
+hbox {
+    orientation: horizontal;
+    children: [prompt, entry];
+    expand: false;
+    border: 2px;
+    border-radius: 8px;
+    border-color: @accent;
+}
+
+prompt {
+    padding: 8px;
+    color: @background;
+    background-color: @accent;
+}
+
+entry {
+    padding: 8px;
+}
+
+listview {
+    cycle: true;
+    lines: 5;
+    columns: 5;
+    fixed-columns: true;
+}
+
+element {
+    border-radius: 8;
+    padding: 8;
+    orientation: vertical;
+    children: [element-icon, element-text];
+}
+
+element-icon {
+  size: 48px;
+  horizontal-align: 0.5;
+  vertical-align: 0.5;
+}
+
+
+element-text {
+    expand: true;
+    horizontal-align: 0.5;
+    vertical-align: 0.5;
+}
+
+element.active,
+element.selected {
+    color: @background;
+    background-color: @accent;
+}

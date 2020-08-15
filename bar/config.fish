@@ -1,0 +1,22 @@
+set t_bg        '1c1d21'
+set t_fg        'f9f4dc'
+set t_black     '202126'
+set t_red       'f03f24'
+set t_green     '20a162'
+set t_yellow    'd8b536'
+set t_blue      '2d99db'
+set t_magenta   'dc6acf'
+set t_cyan      '5cb3cc'
+set t_white     'f9f4dc'
+set b_black     '1c1d21'
+set b_red       'e05d43'
+set b_green     '68ad8b'
+set b_yellow    'd7af70'
+set b_blue      '2274a5'
+set b_magenta   'a8509e'
+set b_cyan      '409def'
+set b_white     'f9e9cd'
+
+set alpha       "d7"
+set foreground  $t_fg
+set background  $t_bg

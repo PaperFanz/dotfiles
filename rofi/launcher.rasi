@@ -1,0 +1,10 @@
+configuration {
+    modi: "drun";
+	display-drun: "Launch:";
+    drun-display-format: "{icon}{name}";
+    width: 30;
+    show-icons: true;
+    me-accept-entry: "MouseDPrimary";
+}
+
+@theme "themes/launcher-theme.rasi"

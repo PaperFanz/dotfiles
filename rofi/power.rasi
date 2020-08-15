@@ -1,0 +1,6 @@
+configuration {
+    me-accept-entry: "MouseDPrimary";
+    fullscreen: true;
+}
+
+@theme "themes/power-theme.rasi"

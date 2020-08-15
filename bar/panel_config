@@ -1,0 +1,9 @@
+PANEL_FIFO=/tmp/panel-fifo
+PANEL_HEIGHT=42
+PANEL_GAP=8
+PANEL_FONT="CaskaydiaCove Nerd Font Mono"
+PANEL_FONT_SIZE="14"
+PANEL_WM_NAME=bspwm_panel
+
+COLOR_DEFAULT_FG="#f9f4dc"
+COLOR_DEFAULT_BG="#1c1d21"

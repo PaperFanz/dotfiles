@@ -1,0 +1,22 @@
+* {
+    background: #1c1d21;
+    backgroundtp: #1c1d21c0;
+    clear: #00000000;
+    foreground: #f9f4dc;
+    black:      #202126;
+    red:        #f03f24;
+    green:      #20a162;
+    yellow:     #d8b536;
+    blue:       #2d99db;
+    magenta:    #dc6acf;
+    cyan:       #5cb3cc;
+    white:      #f9f4dc;
+    brightblack:    #1c1d21;
+    brightred:      #e05d43;
+    brightgreen:    #68ad8b;
+    brightyellow:   #d7af70;
+    brightblue:     #2274a5;
+    brightmagenta:  #a8509e;
+    brightcyan:     #409def;
+    brightwhite:    #f9e9cd;
+}
