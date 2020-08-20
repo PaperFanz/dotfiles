@@ -3,22 +3,19 @@
 * {
     accent: @blue;
     color: @foreground;
-    background-color: @background;
+    background-color: @backgroundtp;
 }
 
 window {
     font: "CaskaydiaCove Nerd Font 14";
-    padding: 21px;
-    border-radius: 21px;
-    border: 2px;
-    border-color: @accent;
-    width: 35%;
+    padding: 300px 600px;
     children: [vbox];
 }
 
 vbox {
     orientation: vertical;
     children: [hbox, listview];
+    background-color: @clear;
 }
 
 hbox {
@@ -28,6 +25,7 @@ hbox {
     border: 2px;
     border-radius: 8px;
     border-color: @accent;
+    background-color: @clear;
 }
 
 prompt {
@@ -38,6 +36,8 @@ prompt {
 
 entry {
     padding: 8px;
+    color: @accent;
+    background-color: @clear;
 }
 
 listview {
@@ -45,12 +45,14 @@ listview {
     lines: 5;
     columns: 5;
     fixed-columns: true;
+    background-color: @clear;
 }
 
 element {
     border-radius: 8;
     padding: 8;
     orientation: vertical;
+    background-color: @clear;
     children: [element-icon, element-text];
 }
 

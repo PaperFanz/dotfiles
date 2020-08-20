@@ -2,9 +2,9 @@ configuration {
     modi: "drun";
 	display-drun: "Launch:";
     drun-display-format: "{icon}{name}";
-    width: 30;
-    show-icons: true;
     me-accept-entry: "MouseDPrimary";
+    fullscreen: true;
+    show-icons: true;
 }
 
 @theme "themes/launcher-theme.rasi"
