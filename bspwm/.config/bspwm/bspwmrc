@@ -16,7 +16,7 @@ sh ~/.fehbg
 xsetroot -cursor_name left_ptr
 
 # set desktop names
-bspc monitor -d trm dev www mus tmp
+bspc monitor -d trm dev web msg mus tmp
 
 # start bar after setting desktop names
 sh /home/sci/.config/bar/panel.sh 
@@ -37,5 +37,5 @@ bspc config normal_border_color 	\#111824
 bspc rule -a Code desktop='^2'
 bspc rule -a Firefox desktop='^3'
 # spotify sets WM_CLASS too late, does not work
-bspc rule -a Spotify desktop='^4'
+bspc rule -a Spotify desktop='^5'
 bspc rule -a Screenkey manage=off

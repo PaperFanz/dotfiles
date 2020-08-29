@@ -4,7 +4,7 @@ source $HOME/.config/bar/config.fish
 
 set ws_gap 8
 
-set ws_clrs $t_yellow $t_blue $b_red $t_green $t_magenta
+set ws_clrs $t_yellow $t_blue $b_red $b_cyan $t_green $t_magenta
 
 # get workspace numbers from bspc
 set ws_nums (bspc query -D)
@@ -13,7 +13,7 @@ set ws_nums (bspc query -D)
 set ws_names (bspc query -D --names)
 
 # configure icons for workspaces
-set ws_icons     
+set ws_icons    ﭮ  
 
 # get current workspace on startup
 set ws_cur (bspc query -D -d)
@@ -22,7 +22,7 @@ while true
 
     set ws_string "W"
 
-    for ws in (seq 5)
+    for ws in (seq 6)
 
         set clr $ws_clrs[$ws]
 
