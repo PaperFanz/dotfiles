@@ -6,6 +6,5 @@ PREFIX=$HOME/.config
 cp $PREFIX/picom/picom_focus.conf $PREFIX/picom/picom.conf
 
 # bspwm config
-bspc config border_width        1
-bspc config window_gap          8
-bspc config border_radius       0
+cp $PREFIX/bspwm/bspwmrc-focus $PREFIX/bspwm/bspwmrc
+bspc wm -r && dunstify -r 500 "BSPWM" "Focus Mode"

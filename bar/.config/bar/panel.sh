@@ -8,8 +8,6 @@ PREFIX=$HOME/.config/bar
 
 if xdo id -a "$PANEL_WM_NAME" > /dev/null ; then
 	pkill lemonbar
-    bspc config top_padding 0
-    exit 0
 fi
 
 # trap 'trap - TERM; kill 0' INT TERM QUIT EXIT

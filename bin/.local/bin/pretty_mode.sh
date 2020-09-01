@@ -6,6 +6,5 @@ PREFIX=$HOME/.config
 cp $PREFIX/picom/picom_pretty.conf $PREFIX/picom/picom.conf
 
 # bspwm settings
-bspc config border_width        2
-bspc config window_gap          8
-bspc config border_radius       21
+cp $PREFIX/bspwm/bspwmrc-pretty $PREFIX/bspwm/bspwmrc
+bspc wm -r && dunstify -r 500 "BSPWM" "Pretty Mode"
