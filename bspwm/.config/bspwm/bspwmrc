@@ -21,9 +21,9 @@ bspc monitor -d trm dev web msg mus tmp
 # start bar after setting desktop names
 sh /home/sci/.config/bar/panel.sh 
 
-bspc config border_width        2
-bspc config window_gap          16
-bspc config border_radius       21
+bspc config border_width        1
+bspc config window_gap          8
+bspc config border_radius       0
 
 bspc config split_ratio          0.50
 bspc config borderless_monocle   true
