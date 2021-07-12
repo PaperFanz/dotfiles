@@ -1,9 +1,10 @@
 #!/usr/bin/fish
 
 function fish_greeting
-    
-    export SPICETIFY_INSTALL="$HOME/.local/bin/spicetify-cli"
-    export PATH="$SPICETIFY_INSTALL:$PATH"
+
+    export PATH="$PATH:$HOME/.local/node/bin"
+
+    export PATH="$PATH:$HOME/.config/coc/extensions/coc-clangd-data/install/12.0.0/clangd_12.0.0/bin"
 
 end
 

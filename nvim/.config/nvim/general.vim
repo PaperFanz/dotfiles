@@ -2,10 +2,13 @@
 
 set mouse=a
 set nowrap
+set hidden
 set showmatch
 set visualbell
 set scrolloff=8
 set updatetime=300
+set autoread
+set path=$PWD/**
 
 " Search "
 set hlsearch
