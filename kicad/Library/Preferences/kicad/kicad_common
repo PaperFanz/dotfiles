@@ -1,0 +1,22 @@
+UseIconsInMenus=0
+IconScale=-1
+MousewheelPAN=1
+ZoomNoCenter=0
+AutoPAN=1
+OpenGLAntialiasingMode=1
+CairoAntialiasingMode=1
+WorkingDir=/private/var/folders/1b/dry1n1vd649cp1mgt2g9_58c0000gn/T/AppTranslocation/1DDCF1CA-4077-41B3-A071-6F187F0CAEEC/d
+ShowEnvVarWarningDialog=1
+Editor=/usr/bin/open
+AutoSaveInterval=0
+FileHistorySize=9
+CanvasScale=0
+PdfBrowserName=
+UseSystemBrowser=1
+[EnvironmentVariables]
+KICAD_SYMBOL_DIR=/Library/Application Support/kicad/library
+KICAD_TEMPLATE_DIR=/Library/Application Support/kicad/template
+KICAD_USER_TEMPLATE_DIR=/Users/pete/Documents/kicad/template
+KIGITHUB=https://github.com/KiCad
+KISYS3DMOD=/Library/Application Support/kicad/modules/packages3d/
+KISYSMOD=/Library/Application Support/kicad/modules
