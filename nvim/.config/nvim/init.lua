@@ -11,4 +11,5 @@ require('plugins/packer')
 require('plugins/nvim-tree')
 require('plugins/nvim-autopairs')
 require('plugins/colors')
+require('plugins/vim-startify')
 

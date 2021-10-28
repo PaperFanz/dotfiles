@@ -27,7 +27,6 @@ g.nvim_tree_icons = {
 local tree_cb = require'nvim-tree.config'.nvim_tree_callback
 
 require('nvim-tree').setup{
-    open_on_setup = true,
     view = { 
         auto_resize = true,
         mappings = {

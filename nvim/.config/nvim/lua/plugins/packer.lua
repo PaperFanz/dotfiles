@@ -27,6 +27,9 @@ return packer.startup(function(use)
         run = ':TSUpdate'
     }
 
+    -- start page
+    use 'mhinz/vim-startify'
+
     -- colorscheme
     use 'sainnhe/sonokai'
 

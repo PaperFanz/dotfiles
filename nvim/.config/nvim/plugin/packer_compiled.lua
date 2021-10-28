@@ -92,6 +92,10 @@ _G.packer_plugins = {
   sonokai = {
     loaded = true,
     path = "/Users/pete/.local/share/nvim/site/pack/packer/start/sonokai"
+  },
+  ["vim-startify"] = {
+    loaded = true,
+    path = "/Users/pete/.local/share/nvim/site/pack/packer/start/vim-startify"
   }
 }
 
