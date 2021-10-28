@@ -94,10 +94,10 @@ font:
     # Font family
     #
     # Default:
-    #   - (macOS) Menlo
+    #   - (macOS) Menlo 
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: Menlo
+    family: Hack iCursive S12
 
     # The `style` can be specified to pick a specific face.
     style: Regular
@@ -108,7 +108,7 @@ font:
     #
     # If the bold family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: Menlo
+    family: Hack iCursive S12
 
     # The `style` can be specified to pick a specific face.
     style: Bold
@@ -119,7 +119,7 @@ font:
     #
     # If the italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: Menlo
+    family: Hack iCursive S12
 
     # The `style` can be specified to pick a specific face.
     style: Italic
@@ -130,7 +130,7 @@ font:
     #
     # If the bold italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: Menlo
+    family: Hack iCursive S12
 
     # The `style` can be specified to pick a specific face.
     style: Bold Italic
@@ -541,6 +541,7 @@ key_bindings:
   - { key: X, mods: Alt, chars: "\x1bx" }
   - { key: Y, mods: Alt, chars: "\x1by" }
   - { key: Z, mods: Alt, chars: "\x1bz" }
+  - { key: N, mods: Control, chars: "\\n" }
   - { key: A, mods: Alt|Shift, chars: "\x1bA" }
   - { key: B, mods: Alt|Shift, chars: "\x1bB" }
   - { key: C, mods: Alt|Shift, chars: "\x1bC" }
