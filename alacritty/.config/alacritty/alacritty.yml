@@ -541,7 +541,32 @@ key_bindings:
   - { key: X, mods: Alt, chars: "\x1bx" }
   - { key: Y, mods: Alt, chars: "\x1by" }
   - { key: Z, mods: Alt, chars: "\x1bz" }
+  - { key: A, mods: Control, chars: "\\a" }
+  # - { key: B, mods: Control, chars: "\\b" }
+  # - { key: C, mods: Control, chars: "\\c" }
+  # - { key: D, mods: Control, chars: "\\d" }
+  - { key: E, mods: Control, chars: "\\e" }
+  - { key: F, mods: Control, chars: "\\f" }
+  - { key: G, mods: Control, chars: "\\g" }
+  - { key: H, mods: Control, chars: "\\h" }
+  - { key: I, mods: Control, chars: "\\i" }
+  - { key: J, mods: Control, chars: "\\j" }
+  - { key: K, mods: Control, chars: "\\k" }
+  - { key: L, mods: Control, chars: "\\l" }
+  - { key: M, mods: Control, chars: "\\m" }
   - { key: N, mods: Control, chars: "\\n" }
+  - { key: O, mods: Control, chars: "\\o" }
+  - { key: P, mods: Control, chars: "\\p" }
+  - { key: Q, mods: Control, chars: "\\q" }
+  - { key: R, mods: Control, chars: "\\r" }
+  - { key: S, mods: Control, chars: "\\s" }
+  # - { key: T, mods: Control, chars: "\\t" }
+  - { key: U, mods: Control, chars: "\\u" }
+  - { key: V, mods: Control, chars: "\\v" }
+  # - { key: W, mods: Control, chars: "\\w" }
+  # - { key: X, mods: Control, chars: "\\x" }
+  - { key: Y, mods: Control, chars: "\\y" }
+  # - { key: Z, mods: Control, chars: "\\z" }
   - { key: A, mods: Alt|Shift, chars: "\x1bA" }
   - { key: B, mods: Alt|Shift, chars: "\x1bB" }
   - { key: C, mods: Alt|Shift, chars: "\x1bC" }
