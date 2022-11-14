@@ -49,7 +49,7 @@ window:
   # Values for `decorations` (macOS only):
   #     - transparent: Title bar, transparent background and title bar buttons
   #     - buttonless: Title bar, transparent background, but no title bar buttons
-  #decorations: full
+  decorations: buttonless
 
   # Startup Mode (changes require restart)
   #
@@ -136,7 +136,7 @@ font:
     style: Bold Italic
 
   # Point size
-  size: 16.0
+  size: 14.0
 
   # Offset is the extra space around each character. `offset.y` can be thought of
   # as modifying the line spacing, and `offset.x` as modifying the letter spacing.
@@ -278,7 +278,7 @@ colors:
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-background_opacity: 1.0
+window.opacity: 1.0
 
 #selection:
   #semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
@@ -541,7 +541,32 @@ key_bindings:
   - { key: X, mods: Alt, chars: "\x1bx" }
   - { key: Y, mods: Alt, chars: "\x1by" }
   - { key: Z, mods: Alt, chars: "\x1bz" }
+  - { key: A, mods: Control, chars: "\\a" }
+  # - { key: B, mods: Control, chars: "\\b" }
+  # - { key: C, mods: Control, chars: "\\c" }
+  # - { key: D, mods: Control, chars: "\\d" }
+  - { key: E, mods: Control, chars: "\\e" }
+  - { key: F, mods: Control, chars: "\\f" }
+  - { key: G, mods: Control, chars: "\\g" }
+  - { key: H, mods: Control, chars: "\\h" }
+  - { key: I, mods: Control, chars: "\\i" }
+  - { key: J, mods: Control, chars: "\\j" }
+  - { key: K, mods: Control, chars: "\\k" }
+  - { key: L, mods: Control, chars: "\\l" }
+  - { key: M, mods: Control, chars: "\\m" }
   - { key: N, mods: Control, chars: "\\n" }
+  - { key: O, mods: Control, chars: "\\o" }
+  - { key: P, mods: Control, chars: "\\p" }
+  - { key: Q, mods: Control, chars: "\\q" }
+  - { key: R, mods: Control, chars: "\\r" }
+  - { key: S, mods: Control, chars: "\\s" }
+  # - { key: T, mods: Control, chars: "\\t" }
+  - { key: U, mods: Control, chars: "\\u" }
+  - { key: V, mods: Control, chars: "\\v" }
+  # - { key: W, mods: Control, chars: "\\w" }
+  # - { key: X, mods: Control, chars: "\\x" }
+  - { key: Y, mods: Control, chars: "\\y" }
+  # - { key: Z, mods: Control, chars: "\\z" }
   - { key: A, mods: Alt|Shift, chars: "\x1bA" }
   - { key: B, mods: Alt|Shift, chars: "\x1bB" }
   - { key: C, mods: Alt|Shift, chars: "\x1bC" }

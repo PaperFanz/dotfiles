@@ -203,4 +203,5 @@
   (lib (name ABS25-32.768KHZ-T)(type Legacy)(uri /Users/pete/Programming/PEASI/lib/ABS25-32.768KHZ-T/ABS25-32.768KHZ-T.lib)(options "")(descr ""))
   (lib (name SI1304BDL-T1-E3)(type Legacy)(uri /Users/pete/Programming/PEASI/lib/SI1304BDL/SI1304BDL-T1-E3.lib)(options "")(descr ""))
   (lib (name 2021-10-23_16-14-28)(type Legacy)(uri /Users/pete/Programming/PEASI/lib/STC3115AIJT/2021-10-23_16-14-28.lib)(options "")(descr ""))
+  (lib (name STM32G070RBT6)(type Legacy)(uri /Users/pete/Programming/PEASI/lib/STM32G070RBT6/STM32G070RBT6.lib)(options "")(descr ""))
 )
